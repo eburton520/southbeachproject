@@ -1,0 +1,107 @@
+body {
+  font-family: 'Patrick Hand', normal;
+  color: #DD9AC2;
+  box-sizing: border-box;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #82667F;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.navbar-brand h1 {
+    color: #DFAEB4;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .50;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#menu-header h2{
+  font-weight: bold;
+  font-size: 45px;
+  margin-bottom: 50px;
+  color: #DFAEB4;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: -10px;
+  color: #DFAEB4;
+}
+
+#nav-list a {
+  color: #DFAEB4;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: white;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #DFAEB4;
+}
+
+.navbar-header button.navbar-toggle {
+  margin-top: 15px;
+}
+
+#main-content {
+  background-color: #82667F;
+}
+
+#main-content p {
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 20px 15px 15px 15px;
+  color: #DD9AC2;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #main-content p {
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 20px 15px 15px 15px;
+  color: #DD9AC2;
+}
+
+}
+
+/********** Extra small devices only **********/
+/* Header */
+@media (max-width: 767px) {
+
+#main-content {
+    margin-right: 30px;
+    margin-left: 30px;
+    color: #82667F;
+  }
+
+#main-content p {
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 20px 15px 15px 15px;
+  color: #DD9AC2;
+}
+
+}
+
+  
+
+
